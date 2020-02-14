@@ -1,83 +1,103 @@
-footer {
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
 
-    background-color: black;
-    color: red;
-    height: 100px;
-
-
-}
-
-body {
+body{
     margin: 0px;
+    display: block;
 }
 
-
-nav {
-    background-color: yellowgreen;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding-left: 20px;
-    font-style: oblique;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight:bolder;
-
+.nav {
+width: 100%;
+height: 45px;
+margin-bottom: 20px;
+background-color: black;
+position: fixed;
 }
+ul{
 
-aside {
-    background-color: black;
-    color: white;
-    width: 200px;
-    position: fixed;
-
-    left: -200px;
+padding: 0px;
+box-sizing: border-box;
+margin-top: 0;
+margin-bottom: 1rem;
+float: right;
 }
-
-li {
-    list-style-type: none;
-    text-decoration: none;
-}
-
-a {
-    color: white;
-}
-
-p {
-    margin-bottom: 30px;
-    padding: 5px;
-    margin-left: 20px;
-    margin-right:20px ;
-}
-
-
-.a {
-    padding: 20px;
-    font-style: italic;
-    font-family: cursive;
-    font-weight: bold;
-    text-align: center;
-}
-
-button {
+li{
+    
+    
+    padding: 0px;
     display: inline-block;
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
-    padding: 8px 15px;
-    border-radius: 100px;
-    border: solid rgb(4, 88, 192);
-    border-width: 3px 10px;
-    outline: none;
-    opacity: 1;
-    transition: .6s, opacity 0s 9999999s, visibility 0s 9999999s;
+    margin: 15px;
 }
-h1{
+a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-style: initial;
+    font-size: 15px;
+font-weight: 200;
+margin: 0px;
+padding: 0px;
+display: flex;
+color: white;
+justify-content: center;
+justify-items: center;
+align-items: center;
+align-content: center;
+text-align: center;
+font-family: "Libre Baskerville", serif;
+text-decoration: none;
+}
 
+ a:hover{
+border-bottom: 3px solid;
+    }
+  
+ #home {
+    display: flex;
+    justify-content: center;
+        background-image:
+          url("john-towner-JgOeRuGD_Y4-unsplash.jpg");
+       
+        background-size: 100% 100vh;
+ }
+ 
+.example h1 {
+    
+    font-size: 55px;
+    color: white;
     text-align: center;
+    padding-top:100px ;
 }
-img{
+#content > div {
+    height: 100vh;}
 
-float: left;
-border-radius:22px;
-}
+    footer{
+background-color: black;        
+position: absolute;
+font-size: 16px;
+color: white;
+width: 100%;
+    }
+    li:hover{
+        border-bottom: 3px solid;
+        
+    }
+    span{
+        color: blue;
+        font-size: 20px;
+
+    }
+    h2{
+font-size: 30px;
+font-weight: bolder;
+
+    }
+    main{
+        padding: 20px;
+        
+    }
+    .example1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+    }
+    .photo{
+        width: 50px;
+        border-radius: 50%;
+    }
