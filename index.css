@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
-@media screen and (min-width:200px) and (max-width:1024px) {
-html{
-    margin: 0;
-}
-}
+
+
+
+
 body{
     margin: 0px;
     display: block;
@@ -51,8 +50,12 @@ text-decoration: none;
 
  a:hover{
 border-bottom: 3px solid;
+transition: 0.3s;
+
+
+
     }
-  
+    
  #home {
     display: flex;
     justify-content: center;
@@ -62,12 +65,17 @@ border-bottom: 3px solid;
         background-size: 100% 100vh;
  }
  
-.example h1 {
+.example h1:first-child {
     
     font-size: 55px;
     color: white;
     text-align: center;
     padding-top:100px ;
+}
+h1{
+    font-size: 55px;
+    color: white;
+    text-align: center;  
 }
 #content > div {
     height: 100vh;}
@@ -78,9 +86,12 @@ position: absolute;
 font-size: 16px;
 color: white;
 width: 100%;
+display: flex;
+padding-left: 500px;
     }
     li:hover{
         border-bottom: 3px solid;
+
         
     }
     span{
@@ -110,14 +121,9 @@ font-weight: bolder;
         width: 50px;
         border-radius: 50%;
     }
-    footer ul img{
-      width: 50px;
-      height: 50px;
-      border-right: 100%;
-  }
-  footer ul img:hover{
-      border-right: 50%;
-  }
+   
+  
+  
   .img{
       width: 20px;
       height: 20px;
@@ -142,11 +148,18 @@ font-weight: bolder;
           font-weight: normal;
           font-family: Verdana, Geneva, Tahoma, sans-serif;
           font-size: 23px;
-          background: ;
+          
       }
       .abcd{
           border: dashed;
           background-color: white;
           color:black;
+          padding: 20px;
       }
+      .idi{
+          color: black;
+      }
+    
+     
+         
      
