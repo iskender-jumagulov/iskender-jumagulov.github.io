@@ -4,8 +4,8 @@
 
 
 body{
-    margin: 0px;
-    display: block;
+margin: 0px;
+display: block;
 }
 
 .nav {
@@ -24,16 +24,15 @@ margin-bottom: 1rem;
 float: right;
 }
 li{
-    
-    
-    padding: 0px;
-    display: inline-block;
-    margin: 15px;
+       
+padding: 0px;
+display: inline-block;
+margin: 15px;
 }
 a{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    font-style: initial;
-    font-size: 15px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+font-style: initial;
+font-size: 15px;
 font-weight: 200;
 margin: 0px;
 padding: 0px;
@@ -48,7 +47,7 @@ font-family: "Libre Baskerville", serif;
 text-decoration: none;
 }
 
- a:hover{
+a:hover{
 border-bottom: 3px solid;
 transition: 0.3s;
 
@@ -57,30 +56,29 @@ transition: 0.3s;
     }
     
  #home {
-    display: flex;
-    justify-content: center;
-        background-image:
-          url("john-towner-JgOeRuGD_Y4-unsplash.jpg");
-       
-        background-size: 100% 100vh;
+display: flex;
+justify-content: center;
+background-image:url("john-towner-JgOeRuGD_Y4-unsplash.jpg");
+background-size: 100% 100vh;
  }
- 
-.example h1:first-child {
+
+ .example h1:first-child
+  {
     
-    font-size: 55px;
-    color: white;
-    text-align: center;
-    padding-top:100px ;
+font-size: 55px;
+color: white;
+text-align: center;
+padding-top:100px ;
 }
 h1{
-    font-size: 55px;
-    color: white;
-    text-align: center;  
+font-size: 55px;
+color: white;
+text-align: center;  
 }
 #content > div {
-    height: 100vh;}
+height: 100vh;}
 
-    footer{
+footer{
 background-color: black;        
 position: absolute;
 font-size: 16px;
@@ -89,75 +87,70 @@ width: 100%;
 display: flex;
 padding-left: 500px;
     }
-    li:hover{
-        border-bottom: 3px solid;
+li:hover{
+border-bottom: 3px solid;
 
         
     }
-    span{
-        color: blue;
-        font-size: 20px;
-        font-weight: bolder;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-    }
-    h2{
+span{
+color: blue;
+font-size: 20px;
+font-weight: bolder;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+h2{
 font-size: 30px;
 font-weight: bolder;
 
     }
-    main{
-        
-        padding: 70px;
-        height: 90vh;
+main{        
+padding: 70px;
+height: 90vh;
         
     }
-    .example1{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 20px;
+.example1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
     
     }
-    .photo{
-        width: 50px;
-        border-radius: 50%;
+.photo{
+width: 50px;
+border-radius: 50%;
     }
-   
   
-  
-  .img{
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      background: black;}
+.img{
+width: 20px;
+height: 20px;
+border-radius: 50%;
+background: black;}
 
-      #about-me{
-        background-image: url("emile-perron-xrVDYZRGdw4-unsplash.jpg");
-        background-size: 100% 100%;
-        filter:  brightness(0.9);
+#about-me{
+background-image: url("emile-perron-xrVDYZRGdw4-unsplash.jpg");
+background-size: 100% 100%;
+filter:  brightness(0.9);
       }
-      .cup{
-          text-align: center;
-          padding-left: 200px;
-          padding-right: 200px;
-        color:white;
-        border:solid;
+.cup{
+text-align: center;
+padding-left: 200px;
+padding-right: 200px;
+color:white;
+border:solid;
       }
-      .tel{
-         
-          color:black;
-          font-weight: normal;
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
-          font-size: 23px;
+.tel{
+color:black;
+font-weight: normal;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 23px;
           
       }
-      .abcd{
-          border: dashed;
-          background-color: white;
-          color:black;
-          padding: 20px;
+.abcd{
+border: dashed;
+background-color: white;
+color:black;
+padding: 20px;
       }
-      .idi{
-          color: black;
+.idi{
+color: black;
       }
     
      
